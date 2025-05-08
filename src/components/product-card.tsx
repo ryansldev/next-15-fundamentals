@@ -11,10 +11,12 @@ interface ProductCardProps extends ComponentProps<"div"> {
 
 export function ProductCard({ product, className, ...props }: ProductCardProps) {
   return (
-    <div className={twMerge("flex flex-col gap-8 border border-neutral-800 p-10 rounded-xl", className)} {...props}>
-      <Image src={product.imageUrl} alt={product.title} width={512} height={512} />
+    <div className={twMerge("flex flex-col border border-neutral-800 rounded-xl", className)} {...props}>
+      <div className="h-[350px] w-[512px] bg-neutral-900 p-4">
+        <Image className="w-full h-full object-contain" src={product.imageUrl} alt={product.title} width={512} height={512} />
+      </div>
 
-      <div className="flex flex-col">
+      <div className="flex flex-col p-10">
         <h1 className="text-2xl font-semibold">{product.title}</h1>
         <h2 className="text-2xl font-medium">{(product.value/100).toLocaleString("pt-br", { style: "currency", currency: product.currency })}</h2>
 

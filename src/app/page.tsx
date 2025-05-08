@@ -9,10 +9,10 @@ export default function Home() {
 
   useEffect(() => {
     async function getProducts() {
-      fetch("/api/products")
+      fetch("http://localhost:3000/products")
         .then((response) => response.json())
         .then((json) => {
-          setProducts(json.products)
+          setProducts(json)
         })
     }
 
@@ -23,9 +23,6 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center p-6">
       <h1 className="text-2xl font-semibold">Produtos</h1>
       <div className="flex flex-wrap gap-x-3 gap-y-6 items-center justify-center py-5">
-        {products && products.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
         {products && products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
