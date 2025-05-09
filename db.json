@@ -15,6 +15,174 @@
       "currency": "BRL",
       "imageUrl": "https://i0.wp.com/akkazo.com.br/wp-content/uploads/2023/08/Iphone-14-plus-Preto-1.png?fit=1200%2C1200&ssl=1",
       "description": ""
+    },
+    {
+      "id": "3",
+      "title": "Samsung Galaxy S21",
+      "value": 389900,
+      "currency": "BRL",
+      "imageUrl": "https://files.tecnoblog.net/wp-content/uploads/2025/02/Galaxy-S21-Violeta.png",
+      "description": "Smartphone com design elegante e desempenho impressionante."
+    },
+    {
+      "id": "4",
+      "title": "AirPods Pro",
+      "value": 229900,
+      "currency": "BRL",
+      "imageUrl": "https://kitus.com.br/wp-content/uploads/2024/08/fone-de-ouvido-sem-fio-kd-790-kaidi-airpods-pro-3.png",
+      "description": "Fones de ouvido sem fio com cancelamento de ruído."
+    },
+    {
+      "id": "5",
+      "title": "PlayStation 5",
+      "value": 499900,
+      "currency": "BRL",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Black_and_white_Playstation_5_base_edition_with_controller.png",
+      "description": "Console de jogos de última geração com desempenho incrível."
+    },
+    {
+      "id": "6",
+      "title": "Xbox Series X",
+      "value": 499900,
+      "currency": "BRL",
+      "imageUrl": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+      "description": "Console poderoso para jogos com gráficos em 4K."
+    },
+    {
+      "id": "7",
+      "title": "Nintendo Switch",
+      "value": 299900,
+      "currency": "BRL",
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/1211726/nintendo_switch_oled_azul_e_vermelho_neon_143_1_eb53e4bd0bea6264a7e5b404da257baa.png",
+      "description": "Console híbrido para jogos em qualquer lugar."
+    },
+    {
+      "id": "8",
+      "title": "Dell XPS 13",
+      "value": 599900,
+      "currency": "BRL",
+      "imageUrl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/9345/spi/platinum/touch/notebook-xps-13-9345-silver-compare-800x550-front.png?fmt=png-alpha&wid=800&hei=550",
+      "description": "Laptop ultra portátil com desempenho rápido."
+    },
+    {
+      "id": "9",
+      "title": "Lenovo ThinkPad X1 Carbon",
+      "value": 749900,
+      "currency": "BRL",
+      "imageUrl": "https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MjgwNzc3fGltYWdlL3BuZ3xoOWUvaGI4LzE0MDgwNDY4MDkwOTEwLnBuZ3w4MzIxNDk3M2E4NTA5ZjY5ZjYzYTc5ZDk3MWYwNjk3OTczNzYxMjM2MDU0ZTQ0MDBjMTU0ZmRhZWUxM2Q2ODYx/lenovo-laptop-thinkpad-x1-carbon-gen-8-hero.png",
+      "description": "Computador portátil de alto desempenho e confiabilidade."
+    },
+    {
+      "id": "10",
+      "title": "Google Pixel 6",
+      "value": 379900,
+      "currency": "BRL",
+      "imageUrl": "https://fs.npstatic.com/devices/68/2068.png",
+      "description": "Smartphone com câmeras de alta qualidade e software otimizado."
+    },
+    {
+      "id": "11",
+      "title": "Macbook Pro 16",
+      "value": 1200000,
+      "currency": "BRL",
+      "imageUrl": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111901_mbp16-gray.png",
+      "description": "Notebook profissional com tela de 16 polegadas e ótimo desempenho."
+    },
+    {
+      "id": "12",
+      "title": "GoPro Hero 10",
+      "value": 249900,
+      "currency": "BRL",
+      "imageUrl": "https://locnowaudiovisual.com.br/site/wp-content/uploads/2022/12/go-pro-hero-10-black-locnow.png",
+      "description": "Câmera de ação compacta e poderosa para aventuras."
+    },
+    {
+      "id": "13",
+      "title": "Oculus Quest 2",
+      "value": 329900,
+      "currency": "BRL",
+      "imageUrl": "https://nissei.com/media/wysiwyg/descarga1_2.png",
+      "description": "Óculos de realidade virtual imersiva."
+    },
+    {
+      "id": "14",
+      "title": "Sony WH-1000XM4",
+      "value": 249900,
+      "currency": "BRL",
+      "imageUrl": "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw72e2d384/images/WH1000XM4S/WH1000XM4S.png",
+      "description": "Fones de ouvido com cancelamento de ruído."
+    },
+    {
+      "id": "15",
+      "title": "Fitbit Charge 5",
+      "value": 79900,
+      "currency": "BRL",
+      "imageUrl": "https://device101.fitbit.com/images/devices/morgan/101_hero_mgn-921aae7f025c05cd1d04bf6919f36223.png",
+      "description": "Relógio fitness com monitoramento de saúde."
+    },
+    {
+      "id": "16",
+      "title": "Huawei MateBook X Pro",
+      "value": 799900,
+      "currency": "BRL",
+      "imageUrl": "https://t.ctcdn.com.br/fvnL8dS1tOhni26SKxakZHlVFYw=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i548410.png",
+      "description": "Notebook leve e compacto para profissionais."
+    },
+    {
+      "id": "17",
+      "title": "Acer Predator Helios 300",
+      "value": 799900,
+      "currency": "BRL",
+      "imageUrl": "https://cdn.uc.assets.prezly.com/85a0261f-3aff-46b4-be61-e0ec9728232f/Predator-Helios-300-PH315-53-Standard_01.png",
+      "description": "Notebook gamer com desempenho excepcional."
+    },
+    {
+      "id": "18",
+      "title": "Razer Blade 15",
+      "value": 999900,
+      "currency": "BRL",
+      "imageUrl": "https://www.notebookcheck.info/uploads/tx_nbc2/Blade_15_Fall_2018_Base_Model_Render_13.png",
+      "description": "Notebook gamer ultrafino com desempenho de ponta."
+    },
+    {
+      "id": "19",
+      "title": "LG UltraGear Monitor",
+      "value": 299900,
+      "currency": "BRL",
+      "imageUrl": "https://img.terabyteshop.com.br/archive/2483576635/HTML%20Monitor%20Gamer%20LG%20UltraGear,%2027%20Pol%20-%201.png",
+      "description": "Monitor de alta performance para jogos e produtividade."
+    },
+    {
+      "id": "20",
+      "title": "Samsung Odyssey G7",
+      "value": 499900,
+      "currency": "BRL",
+      "imageUrl": "https://t.ctcdn.com.br/pnA-Wl1jB0LtVwyb1xGWQzEkE0k=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i627907.png",
+      "description": "Monitor curvo de 27 polegadas para jogos."
+    },
+    {
+      "id": "21",
+      "title": "Logitech G Pro X",
+      "value": 399900,
+      "currency": "BRL",
+      "imageUrl": "https://www.logitechstore.com.br/media/catalog/product/cache/105e6f420716e0751863c4b81f527d17/h/e/headset5.png",
+      "description": "Fones de ouvido gamer com som de alta qualidade."
+    },
+    {
+      "id": "22",
+      "title": "SteelSeries Arctis 7",
+      "value": 549900,
+      "currency": "BRL",
+      "imageUrl": "https://media.steelseriescdn.com/thumbs/catalogue/products/00968-arctis-7-white-2019-edition/42cf75be63f84d9e871df5adb0f3da54.png.1200x627_q100_crop-fit_optimize.png",
+      "description": "Fones de ouvido sem fio com microfone de alta qualidade."
+    },
+    {
+      "id": "23",
+      "title": "Corsair K95 RGB Platinum",
+      "value": 1099900,
+      "currency": "BRL",
+      "imageUrl": "https://assets.corsair.com/image/upload/f_auto,q_auto/v1/akamai/pdp/k95-rgb-xt/images/k95_rgb_xt_front.png",
+      "description": "Teclado mecânico RGB com switches de alta performance."
     }
   ]
 }
