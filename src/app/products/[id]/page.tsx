@@ -1,25 +1,25 @@
 import { Button } from "@/components/button";
+import type { Paginated } from "@/types/paginated";
 import type { Product } from "@/types/product";
 import Image from "next/image";
 
 export const revalidate = 60;
 
 async function getProduct(id: string): Promise<Product | null> {
-  const res = await fetch(`http://localhost:3000/products/${id}`, { next: { revalidate: 60 } });
+  const res = await fetch(`http://localhost:3000/products/${id}`, { next: { revalidate } });
 
   if (!res.ok) return null;
   return res.json();
 }
 
 export async function generateStaticParams() {
-  const res = await fetch("http://localhost:3000/products");
-  const products: Product[] = await res.json();
+  const res = await fetch("http://localhost:3000/products?_page=1&_per_page=5");
+  const products: Paginated<Product[]> = await res.json();
 
-  return products.slice(0, 5).map(product => ({
+  return products.data.map(product => ({
     id: product.id.toString(),
   }));
 }
-
 
 export default async function ProductPage({ params }: { params: { id: string } }) {
   const product = await getProduct(params.id);
