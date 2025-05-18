@@ -11,7 +11,12 @@ interface IPagination {
 export const revalidate = 60;
 
 async function getProducts(pagination?: IPagination): Promise<Paginated<Product[]> | null> {
-  const res = await fetch(`http://localhost:3000/products?_page=${pagination?.page ?? 1}&_per_page=${pagination?.size ?? 9}`)
+  const page = pagination?.page ?? 1
+  const size = pagination?.size ?? 9
+
+  const res = await fetch(`http://localhost:3000/products?_page=${page}&_per_page=${size}`, {
+    cache: page === 1 ? 'force-cache' : 'no-store',
+  })
   if(!res.ok) return null
   return res.json()
 }
@@ -31,8 +36,8 @@ interface HomeProps {
 
 export default async function Home({ searchParams }: HomeProps) {
   const pagination = {
-    page: Number(searchParams?.page) ?? 1,
-    size: Number(searchParams?.size) ?? 9,
+    page: Number(searchParams?.page ?? 1),
+    size: Number(searchParams?.size ?? 9),
   }
   const products = await getProducts(pagination)
 
